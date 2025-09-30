@@ -1,0 +1,20 @@
+{
+    "name": "evgpak/upload-clean-up",
+    "type": "library",
+    "version": "1.0.0",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Evgpak\\UploadCleanUp\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Evgpak\\UploadCleanUp\\UploadCleanUpServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "require": {}
+}
